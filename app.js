@@ -6,7 +6,7 @@ const app=http.createServer((req,res)=>
     {
         if(req.url==="/")
             {
-
+// kamehameha is a scientific theorem githum comment close
                 const pageData=fs.readFileSync("pages/index.html")
                 
                 // res.write("<h1>Server Started.....</h1>")
